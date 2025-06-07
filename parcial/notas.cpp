@@ -5,7 +5,7 @@ int main()
 {
     string nombre;
     char opcion;
-    int a[8], carnet, suma = 0, contador = 0;
+    int a[9] = {0, 0, 0, 0, 0, 0, 0, 0, 0}, carnet, suma = 0, contador = 0;
     float promedio;
 
     cout << "porfavor ingrese su nombre: " << endl;
@@ -29,7 +29,7 @@ int main()
         switch (opcion)
         {
         case 'a':
-            for (int i = 0; i <= 9; i++)
+            for (int i = 0; i <= 8; i++)
             {
                 cout << "ingrese sus notas (entreo 0 y 10)" << endl;
                 cin >> a[i];
@@ -37,6 +37,7 @@ int main()
                 if (a[i] > 10)
                 {
                     cout << "porfavor ingrese una nota valida" << endl;
+                    a[i] = 0;
                     break;
                 }
             }

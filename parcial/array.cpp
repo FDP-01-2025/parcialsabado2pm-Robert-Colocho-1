@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int a[11];
+    int a[12];
 
     cout << "porfavor ingrese los numeros que quiere en su arreglo: " << endl;
 
