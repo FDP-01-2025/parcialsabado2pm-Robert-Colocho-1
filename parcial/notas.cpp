@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>                                                 //este codigo esta bien :)
 using namespace std;
 
 int main()
